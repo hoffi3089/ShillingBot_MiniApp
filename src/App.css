@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "Terminator";
+  src: url("../public/assets/fonts/Terminator-mLLx.ttf") format("truetype"); /* Make sure to use the correct path */
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  overflow: hidden;
+}
+
+.text-style {
+  color: "#141414";
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* Global.css or styled-components global styles */
+:root {
+  --background-color: #313538;
+  --text-color: #ffffff;
+  --icon-color:#637381;
+  --active-color:rgb(24, 144, 255);
+  --icon-hover-color:rgb(24, 144, 255);
+}
+
+/* body.dark-mode {
+  --background-color: #1c1c1c;
+  --text-color: #f0f0f0;
+  --sidebar-bg-color: black;
+  --icon-color: #f0f0f0;
+  --message-sidebar: #161515;
+  --chat-item-name: #fff;
+  --gradient-home1: #060706;
+  --gradient-home2: black;
+  --gradient-home3: #4e6f5c;
+  --message-bar-input: black;
+  --group-section-active: #141414;
+  --icon-div: black;
+  --border-color: #333333;
+  --nav-item-color: #a6fdb9;
+  --top-menu-mobile:black;
+
+} */
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
+}
